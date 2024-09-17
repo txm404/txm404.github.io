@@ -1,0 +1,15 @@
+/* 设置页面的背景色为蓝白色渐变 */
+body {
+  background: linear-gradient(to bottom, #ffffff, #0099ff);
+  color: #333;
+}
+
+/* 修改侧边栏背景颜色 */
+.sidebar {
+  background-color: #007acc;
+}
+
+/* 修改侧边栏文字颜色 */
+.sidebar a {
+  color: #ffffff;
+}
