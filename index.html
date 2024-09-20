@@ -12,7 +12,7 @@
 <link rel="manifest" href="/site.webmanifest">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  
 
 </head>
 <body>
@@ -25,20 +25,15 @@
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script>
-  var gitalk = new Gitalk({
-    clientID: 'Ov23liW2iWVA3lIhB0PG',
-    clientSecret: 'bda7f7eb8670401eb08aa36c2ca8b45da0d09c44',
-    repo: 'txm404.github.io', // 存储评论的 repo
-    owner: 'txm404',
-    admin: ['txm404'],
-    id: location.pathname, // 唯一标识
-    distractionFreeMode: false // 是否开启无干扰模式
-  });
-  gitalk.render('gitalk-container'); // 渲染评论区
-</script>
-<div id="gitalk-container"></div>
+  <div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="7237a607-7430-4d29-a3d2-140886aa23e8"
+  data-page-id="{{ PAGE_ID }}"
+  data-page-url="{{ PAGE_URL }}"
+  data-page-title="{{ PAGE_TITLE }}"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
 
 </body>
 </html>
