@@ -95,7 +95,7 @@ ________________________________________________________________________________
 
 # 评论区
 
-![请转到](https://taokuangmiddleschool.us.kg/pinglun.html)
+https://taokuangmiddleschool.us.kg/pinglun.html
 
 
 
