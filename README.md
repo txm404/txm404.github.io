@@ -95,16 +95,16 @@ ________________________________________________________________________________
 
 # 评论区
 
+
+<div id="cusdis" data-apid="7237a607-7430-4d29-a3d2-140886aa23e8" data-page-id="{{ $page.file }}" data-page-url="{{ $page.url }}"></div>
+
 <script>
-  window.$docsify = {
-    cusdis: {
-      host: 'https://cusdis.com',
-      appId: '7237a607-7430-4d29-a3d2-140886aa23e8',
-    },
-  }
+  (function() {
+    const cusdis = document.createElement('script');
+    cusdis.src = 'https://cusdis.com/js/cusdis.es.js';
+    document.head.appendChild(cusdis);
+  })();
 </script>
-<script src="//cdn.jsdelivr.net/npm/docsify@4"></script> <!-- docsify核心库 -->
-<script src="https://cusdis.com/js/cusdis.docsify.js"></script> <!-- cusdis核心库 -->
 
 
 
