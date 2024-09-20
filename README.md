@@ -98,6 +98,17 @@ ________________________________________________________________________________
 
 # 评论区
 
+<script>
+  window.$docsify = {
+    cusdis: {
+      host: 'https://cusdis.com', // change the host if you are using self-hosted Cusdis
+      appId: 'xxxx',
+    },
+  }
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<script src="https://cusdis.com/js/cusdis.docsify.js"></script> <!-- change the host if you are using self-hosted Cusdis -->
+
 
 
 
