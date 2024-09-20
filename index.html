@@ -22,7 +22,11 @@
     window.$docsify = {
       name: '桃矿中学官网',
       repo: 'https://github.com/txm404/txm404.github.io',
-      loadNavbar: true
+      loadNavbar: true,
+      loadSidebar: true,
+      subMaxLevel: 2,
+      externalLinkTarget: '_blank'
+      
       
 }
   </script>
@@ -31,6 +35,7 @@
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script src="js/md5.min.js"></script>
   <script src="//unpkg.com/docsify"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
   <script>
     const gitalk = new Gitalk({
       clientID: 'Ov23liW2iWVA3lIhB0PG',
