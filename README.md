@@ -97,22 +97,17 @@ ________________________________________________________________________________
 
 说些什么吧
 
-<div id="gitalk-container"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
-<script src="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+
+
 <script>
-  var gitalk = new Gitalk({
-    clientID: 'Ov23liW2iWVA3lIhB0PG',
-    clientSecret: 'bda7f7eb8670401eb08aa36c2ca8b45da0d09c44',
-    repo: 'txm404.github.io', // GitHub 仓库
-    owner: 'txm404', // 仓库拥有者
-    admin: ['txm404], // 管理员
-    id: location.pathname, // 唯一标识符
-    distractionFreeMode: false, // 是否开启无干扰模式
-  });
-  gitalk.render('gitalk-container');
+  window.$docsify = {
+    cusdis: {
+      host: 'https://cusdis.com',
+      appId: '7237a607-7430-4d29-a3d2-140886aa23e8',
+    },
+  }
 </script>
-
-
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script> <!-- docsify核心库 -->
+<script src="https://cusdis.com/js/cusdis.docsify.js"></script> <!-- cusdis核心库 -->
 
 
