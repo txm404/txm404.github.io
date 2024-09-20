@@ -97,14 +97,20 @@ ________________________________________________________________________________
 
 说些什么吧
 
-<div id="cusdis" data-apid="7237a607-7430-4d29-a3d2-140886aa23e8" data-page-id="{{ $page.file }}" data-page-url="{{ $page.url }}"></div>
-
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
+<script src="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
 <script>
-  (function() {
-    const cusdis = document.createElement('script');
-    cusdis.src = 'https://cusdis.com/js/cusdis.es.js';
-    document.head.appendChild(cusdis);
-  })();
+  var gitalk = new Gitalk({
+    clientID: 'Ov23liW2iWVA3lIhB0PG',
+    clientSecret: 'bda7f7eb8670401eb08aa36c2ca8b45da0d09c44',
+    repo: 'txm404.github.io', // GitHub 仓库
+    owner: 'txm404', // 仓库拥有者
+    admin: ['txm404], // 管理员
+    id: location.pathname, // 唯一标识符
+    distractionFreeMode: false, // 是否开启无干扰模式
+  });
+  gitalk.render('gitalk-container');
 </script>
 
 
