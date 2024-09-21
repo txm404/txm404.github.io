@@ -1,3 +1,3 @@
-* [首页](https://taokuangmiddleschool.us.kg)
+* [首页](/)
   
           
