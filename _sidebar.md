@@ -1,7 +1,2 @@
-- [about](about.md)
-- [activity](activity.md)
-- [admissions](admissions.md)
-- [contact](contact.md)
-- [courses](courses.md)
-- [faculty](faculty.md)
-- [sidebar](sidebar.md)
+- [欢迎](README.md)
+
