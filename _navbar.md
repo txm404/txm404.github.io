@@ -4,5 +4,5 @@
 * [师资力量](faculty.md)
 * [招生信息](admissions.md)
 * [联系方式](contact.md)
-* [校园活动](activity.md)
+
           
