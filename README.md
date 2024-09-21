@@ -37,7 +37,7 @@
 如有任何问题，请通过我们的联系方式与我们联系。
 
 
-____________________________________________________________________________________________________________________
+
 # 校园活动
 ## 1.办人民满意的教育!
 ![2](https://news-vod.voc.com.cn/9/2023/09/27/13938714f5a3584ebf74d72042eda5d77fbd07c31695808845034.jpg)
@@ -98,16 +98,7 @@ ________________________________________________________________________________
 
 # 评论区
 
-<script>
-  window.$docsify = {
-    cusdis: {
-      host: 'https://cusdis.com', // change the host if you are using self-hosted Cusdis
-      appId: 'xxxx',
-    },
-  }
-</script>
-<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-<script src="https://cusdis.com/js/cusdis.docsify.js"></script> <!-- change the host if you are using self-hosted Cusdis -->
+
 
 
 
